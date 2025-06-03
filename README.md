@@ -89,6 +89,7 @@ const LandingPage = () => {
     </div>
   );
 };
+```
 
 ### Dynamic Theme Switcher
 
@@ -605,18 +606,6 @@ const options: ISourceOptions = useMemo(() => {
   };
 }, [windowWidth, devicePerformance]);
 ```
-
-## 🗺️ Roadmap
-
-Future development plans for this component:
-
-- [ ] Create a theme provider system for easier customization
-- [ ] Add more animation presets for common use cases
-- [ ] Implement WebGL renderer option for better performance
-- [ ] Add touch gesture interactions for mobile devices
-- [ ] Create a configuration builder UI for visual customization
-- [ ] Add audio reactivity for music visualization
-- [ ] Implement lazy loading option for better page load performance
 
 ## 🔧 Customization Examples
 
